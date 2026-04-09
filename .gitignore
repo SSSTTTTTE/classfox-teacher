@@ -1,0 +1,32 @@
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+backend/.venv/
+
+# Node / frontend build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+output/
+
+# Local environment and secrets
+.env
+.env.*
+!backend/.env.example
+backend/.env
+.playwright-cli/
+
+# Runtime data and logs
+data/
+*.log
+
+# Editor / OS
+.idea/
+.vscode/
